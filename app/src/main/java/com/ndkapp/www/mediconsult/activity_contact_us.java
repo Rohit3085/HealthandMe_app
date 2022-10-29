@@ -57,7 +57,7 @@ public class activity_contact_us extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);
                 i.setType("message/rfc822");
-                i.setData(Uri.parse("mailto:" + "rudra.barad@gmail.com"));
+                i.setData(Uri.parse("mailto:" + "kalaskarrohit7502@gmail.com"));
                 i.putExtra(Intent.EXTRA_SUBJECT, "Query or Feedback");
                 try {
                     startActivity(Intent.createChooser(i, "Choose an Email client :"));
@@ -72,7 +72,7 @@ public class activity_contact_us extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);
                 i.setType("message/rfc822");
-                i.setData(Uri.parse("mailto:" + "rudra.barad@gmail.com"));
+                i.setData(Uri.parse("mailto:" + "kalaskarrohit7502@gmail.com"));
                 i.putExtra(Intent.EXTRA_SUBJECT, "Query or Feedback");
                 try {
                     startActivity(Intent.createChooser(i, "Choose an Email client :"));
